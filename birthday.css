@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+  background-color: brown;
+}
+.card{
+    background-color: white;
+    padding:20px;
+    margin:0 auto;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 4px 8px gray;
+    transition:transform 0.3s, background-color 0.5 ease;
+}
+h1::after{
+    content:" 🥳"
+}
+h1::before{
+    content:"🥳 "
+}
+.card:hover{
+    background-color: khaki;
+    transform:scale(1.1);
+}
+.message{
+    font-size:1.2em;
+    color:gray;
+    margin-bottom: 20px;
+}
+.link a{
+    text-decoration: none;
+    font-size:1em;
+    border-radius: 5px;
+    color:white;
+    background-color:midnightblue;
+    transition:background-color 0.3s ease;
+    padding:10px 20px;
+}
+
+link{
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+section{
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  display:none;
+}
+
+section:hover{
+  transform: skewX(10deg);
+}
+section:target{
+    display:block;
+}
+.link a:hover{
+    background-color:orangered;
+}
+.link a:focus{
+    outline:2px solid yellow;
+}
+.link a:active{
+    background-color: aquamarine;
+}
+/* .link a:visited{
+    background-color:crimson;
+} */
+.share-link{
+    margin-left:10px;
+}
+.send-link{
+    margin-right: 10px;
+}

@@ -1,0 +1,35 @@
+label{
+    display:block;
+    align-items:center ;
+    height: 1.5em;
+    margin-top:1.5 ;
+}
+body{
+    background-color: peru;
+}
+.clue{
+    font-style: italic;
+    margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.text-center {
+  text-align: center;
+}
+form {
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+.header{
+  text-align:center;
+  text-transform:uppercase;
+  padding:32px;
+  background-color: #0a0a23;
+  color:#fff;
+}
